@@ -5,7 +5,7 @@ import json
 http = urllib3.PoolManager()
 
 def lambda_handler(event, context):
-    # List of webhook URLs
+    # List of webhook URLs - replace with actual webhooks from MS Teams
     webhook_urls = ["https://your-webhook.webhook.office.com", 
                     "https://your-webhook.webhook.office.com"]
 
